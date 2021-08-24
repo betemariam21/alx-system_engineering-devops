@@ -1,2 +1,5 @@
 #!/bin/bash
-alias menu='bash ./menuScript.sh'
+shopt -s expand_aliases
+source ./0-alias
+ls
+\ls -l
